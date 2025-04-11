@@ -12,7 +12,7 @@ function BtnAdd()
     var v = $("#TRow").clone().appendTo("#TBody") ;
     $(v).find("input").val('');
     $(v).removeClass("d-none");
-    $(v).find("th").first().html($('tr').length - 2);
+    //$(v).find("th").first().html($('tr').length - 2);
 }
 
 function BtnDel(v)
